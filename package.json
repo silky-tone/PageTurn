@@ -1,0 +1,50 @@
+{
+  "name": "@silkytone/page-turn",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "import": "./dist/index.mjs",
+  "require": "./dist/index.js",
+  "browser": "./dist/index.umd.js",
+  "types": "./dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --project tsconfig.types.json"
+  },
+  "files": [
+    "lib",
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "browser": "./dist/index.umd.js"
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "pageturn",
+    "page",
+    "turn",
+    "翻页",
+    "页面"
+  ],
+  "description": "页面翻转",
+  "author": "Funny002 <2048412928@qq.com>",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silky-tone/PageTurn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silky-tone/PageTurn/issues"
+  },
+  "homepage": "https://github.com/silky-tone/PageTurn#readme"
+}
